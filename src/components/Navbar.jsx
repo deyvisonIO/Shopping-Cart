@@ -11,6 +11,7 @@ export function Navbar() {
               color: "inherit",
               textDecoration: isActive ?  "underline": "none",
             })}
+            end
           >
             Home
           </NavLink>
