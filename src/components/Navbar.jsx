@@ -8,8 +8,11 @@ export function Navbar() {
           <NavLink
             to="/"
             style={({isActive}) =>({ 
-              color: "inherit",
-              textDecoration: isActive ?  "underline": "none",
+              color: isActive ? "white": "inherit",
+              backgroundColor: isActive ?  "black" : "white",
+              textDecoration: "none",
+              padding: "1rem 2rem",
+
             })}
             end
           >
@@ -20,8 +23,10 @@ export function Navbar() {
           <NavLink 
             to="shop"
             style={({isActive}) =>({ 
-              color: "inherit",
-              textDecoration: isActive ?  "underline" : "none",
+              color: isActive ? "white": "inherit",
+              backgroundColor: isActive ?  "black" : "white",
+              textDecoration: "none",
+              padding: "1rem 2rem",
             })}
           >
             Shop
